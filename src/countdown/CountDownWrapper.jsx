@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import CountDown from "./countdown";
+import CountDown from "./countdown.jsx";
 
 const CountDownWrapper = () => {
   const targetDate = new Date("2025-04-30T23:59:59").getTime();
